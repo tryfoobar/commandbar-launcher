@@ -1,7 +1,7 @@
 {
   "name": "commandbar-launcher",
   "version": "1.0.0",
-  "description": "commandbar-launcher React component",
+  "description": "commandbar-launcher",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
