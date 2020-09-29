@@ -5,8 +5,8 @@ import "./Launcher.css";
 const Launcher = ({ text, style }) => {
   return (
     <div
-      id="commandbar-launcher"
-      className="commandbar-launcher"
+      id="commandbar-user-launcher-component"
+      className="commandbar-user-launcher-component"
       style={style || {}}
       onClick={() => {
         window?.CommandBar?.open();
