@@ -4,6 +4,10 @@
 
 This component is a launcher to open Command Bar. It looks like a search bar and can be slotted into any react app. On click, it'll open the Command Bar. 
 
+<p align="center">
+  <img align="center" src="https://user-images.githubusercontent.com/1981738/95909815-f774b680-0d53-11eb-95e7-95b5a9d576d3.png">
+</p>
+
 ## Installation
 
 - Run `npm install commandbar-launcher`.
