@@ -1,6 +1,10 @@
 # commandbar-launcher
 
-[![npm package][npm-badge]][npm]
+
+[![npm version](https://badge.fury.io/js/commandbar-launcher.svg)](https://badge.fury.io/js/commandbar-launcher)
+![package size](https://img.shields.io/bundlephobia/min/commandbar-launcher/1.1.2)
+![downloads](https://img.shields.io/npm/dm/commandbar-launcher)
+![dependencies](https://img.shields.io/badge/dependencies-react-blue)
 
 This component is a launcher to open Command Bar. It looks like a search bar and can be slotted into any react app. On click, it'll open the Command Bar. 
 
