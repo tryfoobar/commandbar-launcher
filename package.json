@@ -31,10 +31,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
-  "author": "",
+  "author": "Foobar, Inc.",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": "git+https://github.com/tryfoobar/commandbar-launcher.git",
   "keywords": [
     "react-component"
   ]
