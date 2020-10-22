@@ -15,7 +15,8 @@ const Launcher = ({ text, style }) => {
     <div
       id="commandbar-user-launcher-component"
       className={css({
-        minWidth: 250,
+        minWidth: 200,
+        width: 250,
         position: "relative",
         padding: "4px 12px",
         color: "#8792az",
