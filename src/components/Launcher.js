@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { osControlKey } from "./os.js";
 import { AiOutlineSearch } from "react-icons/ai";
-import { css } from "emotion";
+import { css } from "@emotion/css";
 
 const tagStyle = {
   padding: "3px 5px",
