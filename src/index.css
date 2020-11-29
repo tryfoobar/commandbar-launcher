@@ -1,0 +1,42 @@
+.commandbar-user-launcher {
+  font-family: "Avenir Next", sans-serif;
+  min-width: 200px;
+  width: 250px;
+  position: relative;
+  padding: 4px 12px;
+  background-color: #f7fafc;
+  border-radius: 4px;
+  box-shadow: 4px 5px 10px 0px rgba(0, 0, 0, 0.16);
+  font-size: 13px;
+  transition: all 0.3s ease-in-out;
+  line-height: 2;
+  cursor: pointer;
+}
+
+.commandbar-user-launcher:hover {
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.16);
+  color: #697386;
+  transition: all 0.3s ease-in-out;
+}
+
+.commandbar-user-launcher__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.commandbar-user-launcher__prefix {
+  display: flex;
+  align-items: center;
+}
+
+.commandbar-user-launcher__suffix {
+  font-size: 11px;
+}
+
+.commandbar-user-launcher__tag {
+  padding: 3px 5px;
+  background-color: rgba(170,170,180);
+  color: white;
+  border-radius: 5px;
+}

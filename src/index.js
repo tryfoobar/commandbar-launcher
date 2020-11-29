@@ -4,6 +4,7 @@
 // To publish:
 // npm publish
 
+import './index.css';
 import Launcher from "./components/Launcher.js";
 import { osControlKey } from "./components/os.js";
 export const getControlKey = osControlKey;
