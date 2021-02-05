@@ -1,10 +1,12 @@
-// Instructions to build locally:
+// Instructions to test
+// nwb serve-react-demo
+
+// Instructions to build and publish:
 // npm run prepublishOnly
 // npm run build -- --copy-files
-// To publish:
 // npm publish
 
-import './index.css';
+import "./index.css";
 import Launcher from "./components/Launcher.js";
 import { osControlKey } from "./components/os.js";
 export const getControlKey = osControlKey;
