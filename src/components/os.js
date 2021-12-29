@@ -16,7 +16,7 @@ const os = () => {
     os = "WINDOWS";
   } else if (/Android/.test(userAgent)) {
     os = "ANDROID";
-  } else if (!os && /Linux/.test(platform)) {
+  } else if (/Linux/.test(platform)) {
     os = "LINUX";
   }
 
