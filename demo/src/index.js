@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { render } from "react-dom";
 
 import Launcher from "../../src";
+import "../../assets/index.css";
 
 export default class Demo extends Component {
   render() {

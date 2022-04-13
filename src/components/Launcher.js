@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { osControlKey } from "./os.js";
 import { AiOutlineSearch } from "react-icons/ai";
 
