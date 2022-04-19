@@ -1,5 +1,5 @@
 import React from "react";
-import { osControlKey } from "./os.js";
+import { osControlKey, isMobile } from "./os.js";
 import { AiOutlineSearch } from "react-icons/ai";
 
 const Launcher = ({ text, style }) => {
@@ -17,16 +17,18 @@ const Launcher = ({ text, style }) => {
           <AiOutlineSearch />
           &nbsp; {text || "Find anything"}
         </div>
-        <div className="commandbar-user-launcher__suffix">
-          <span
-            style={{ marginRight: 3 }}
-            className="commandbar-user-launcher__tag"
-          >
-            {osControlKey()}
-          </span>
-          <span style={{ marginRight: 3 }}>+</span>
-          <span className="commandbar-user-launcher__tag ">K</span>
-        </div>
+        {!isMobile() && (
+          <div className="commandbar-user-launcher__suffix">
+            <span
+              style={{ marginRight: 3 }}
+              className="commandbar-user-launcher__tag"
+            >
+              {osControlKey()}
+            </span>
+            <span style={{ marginRight: 3 }}>+</span>
+            <span className="commandbar-user-launcher__tag ">K</span>
+          </div>
+        )}
       </div>
     </div>
   );
