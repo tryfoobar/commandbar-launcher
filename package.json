@@ -1,10 +1,12 @@
 {
   "name": "commandbar-launcher",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "commandbar-launcher",
   "main": "lib/index.js",
+  "types": "types.d.ts",
   "module": "es/index.js",
   "files": [
+    "types.d.ts",
     "css",
     "es",
     "lib",
