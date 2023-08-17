@@ -15,8 +15,9 @@
 }
 
 .commandbar-user-launcher:hover {
-  border: 1px solid rgb(160, 160, 160);
   color: rgba(0, 0, 0, 0.75);
+  border: 1px solid transparent;
+  box-shadow: rgb(0 0 0 / 3%) 0 3px 2px;
   transition: all 0.3s ease-in-out;
 }
 

@@ -7,7 +7,21 @@ const Launcher = ({ text, style }) => {
     <div
       id="commandbar-user-launcher-component"
       className={"commandbar-user-launcher"}
-      style={style || {}}
+      style={
+        style || {
+          fontSize: "14px",
+          minWidth: 200,
+          marginRight: 15,
+          marginLeft: 15,
+          width: "inherit",
+          marginBottom: 10,
+          border: "1px solid #DFDFE2",
+          boxShadow: "0px 2px 1px rgba(0, 0, 0, 0.05)",
+          borderRadius: "8px",
+          fontWeight: "500",
+          color: "#A2A2A9",
+        }
+      }
       onClick={() => {
         window?.CommandBar?.open();
       }}
